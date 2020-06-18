@@ -1,3 +1,7 @@
+.header{
+  height: 60px;
+}
+
 table thead th,
 table tbody td {
   padding: 15px;
