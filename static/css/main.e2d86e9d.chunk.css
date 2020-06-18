@@ -1,0 +1,2 @@
+table tbody,table thead{vertical-align:middle}table tbody td,table thead th{padding:15px;font-weight:600;font-size:14px;text-align:center}table thead th{background-color:#454ac4;color:#fff;font-size:16px;position:-webkit-sticky;position:sticky}table tbody tr:hover,table tbody tr:nth-child(odd){background:rgba(0,0,0,.05)}@media print{table thead th{background-color:#fff;color:#000;font-size:16px;position:static}table{border:solid}}
+/*# sourceMappingURL=main.e2d86e9d.chunk.css.map */
