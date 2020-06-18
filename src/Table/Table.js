@@ -12,7 +12,7 @@ export default (props) => (
               key={uuid()}
               id={idx}
               className={styles.header}
-              style={{ top: idx * 50 + "px", bottom: idx * 50 + "px" }}
+              style={{ top: idx * 36 + "px", bottom: idx * 36 + "px" }}
             >
               {el}
             </th>
