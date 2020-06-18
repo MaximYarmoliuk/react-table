@@ -10,7 +10,7 @@ export default function Table(props) {
       const offsetTopValue = document.getElementById("td"+i).offsetTop
 
       for (let n=0; n<countColumn; n+=1){
-        
+
         const el = document.getElementById("th"+i+n)
         const topForEl = el.style.top=offsetTopValue+"px"
         const bottomForEl = el.style.bottom=offsetTopValue+"px"
@@ -22,13 +22,12 @@ export default function Table(props) {
     <table className="table">
       <thead>
         {props.data.header.map((i, idx) => (
-          <tr key={uuid()} id={"td"+idx} style={{height:"auto"}}>
+          <tr key={uuid()} id={"td"+idx}>
             {i.map((el, index) => (
               <th
                 key={uuid()}
                 id={"th"+idx+index}
-                className={styles.header}
-               
+                className="align-middle"
               >
                 {el}
               </th>
